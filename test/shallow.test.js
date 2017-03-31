@@ -12,6 +12,6 @@ function shallowRender(Component) {
 describe('Shallow Rendering', function () {
   it('App\'s title tag should is h1', function () {
     const app = shallowRender(App);
-    expect(app.props.children.type).to.equal('h1');
+    expect(app.props.children.type).to.equal('h2');
   });
 });
