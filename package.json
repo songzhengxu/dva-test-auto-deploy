@@ -4,8 +4,7 @@
     "start": "roadhog server",
     "build": "roadhog build",
     "test": "mocha --compilers js:babel-core/register --require ./test/setup.js",
-    "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "lint": "eslint --ext .js src test"
   },
   "engines": {
     "install-node": "6.9.2"
